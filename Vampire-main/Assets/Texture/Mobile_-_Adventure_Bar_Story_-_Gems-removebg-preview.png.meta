@@ -1,0 +1,1799 @@
+fileFormatVersion: 2
+guid: ae18bb556afa2624195e2119471c76b2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e1c22aeae8f964db38a97f871fc080
+      internalID: -86844611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0d5a6382e789e4d814a4599325d25c
+      internalID: -1409515819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fbae2554cd67745a5eeb39b8dccb29
+      internalID: 503978572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bc51b47f4d182408ad079c822c236d
+      internalID: -2081232591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8903b527a78e9f46b0b64555d3a315c
+      internalID: -285008781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c03ea27b2a83847b6a31820efebbd5
+      internalID: 1847348339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3614ccac31451d459f7350b51557d29
+      internalID: 986307982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdbff406929172418da8e0bea25d413
+      internalID: -123954971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8b588ac91a6184fbf1e7f625605abe
+      internalID: -1253815198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec13b89946606f48a6112732cb83d55
+      internalID: -858346767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7e505bbc8a73b4e870c190bbe301bc
+      internalID: 1779325798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b214a319271224e9b573d06826b31a
+      internalID: -882908899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb19b64036656b42b8401e30df37ebb
+      internalID: 1027451630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417813ad53489ac4695eabc492647715
+      internalID: 1993027526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1162ea1a69680004e9a4177405677f84
+      internalID: 626923981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db54539bf5ae74d40b2db9c44fe9d74d
+      internalID: 721693906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6688ad8f7e76376449f3bd9178951aee
+      internalID: 637815722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a6bfdceb1d286409b8155e95e20406
+      internalID: -566561918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3602b95eea17514aa88861dbb235ffd
+      internalID: -1460463312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 353
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb61291c85d7c8a44af529f34dc2cb67
+      internalID: 1321344923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96a61cc4797ecd4a837004e6d052fba
+      internalID: -682942805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee84778d9cfede4789f80146d251bd1
+      internalID: -1711803517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 303
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57793d84394eefe45a135e982dc3f0e2
+      internalID: 1321081857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 303
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb22bb59d619b348b5c19554c902a21
+      internalID: -1930743569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc65512d2c5c44ca74e18a40dce0bf
+      internalID: -1369141090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 303
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b720cf64ea1c046a03284c6f4f4b2d
+      internalID: 1871031077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092c4fe4f8edf444dbe1fb3f246deaa3
+      internalID: -2144929068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d376d4cfe438d41a24a70f692391a0
+      internalID: -1554021929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a05444a7893a14f9a43facc748390a
+      internalID: -969463837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7541f57fca53440b9b5ce96340c14d
+      internalID: 977968305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f6fec9f527a674d95868e18ad1d2e9
+      internalID: 1164445785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996c2adda8bd1354f81b9a340983e3d9
+      internalID: -1892036212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40815681d06d2b341b47f23d637d7976
+      internalID: -694330382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49481eefc17281f4b867e9e31b34d688
+      internalID: 1924450726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d995fe70a0d7bdf4ca311ea840ae0c5b
+      internalID: -1352331461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 253
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf6bb9c690835447a578412199ea965
+      internalID: 2136063242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d4ed0663192c440aa74656de710e45
+      internalID: 317315423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566f3ef9e5e8a6f438334d405934eeee
+      internalID: 2127217573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e92bcc659ec4041817c27b684bdfed
+      internalID: -1094716552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5050f042a0a7a2e41995fceb33c1d2a2
+      internalID: -1473079563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df067570f456d164c9adbf0a767a8819
+      internalID: 631767549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27be29f0946b6c43a5a10779523e785
+      internalID: -1093723828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50550948830a42645aff317c874dc725
+      internalID: -1483557896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce31e5532376dbf49afb4d16d03c1174
+      internalID: 1946361310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bf3677ac70a5542810d00c4115689c
+      internalID: 1379629678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 203
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f36d09fc099d247a740af49560b6d6
+      internalID: -1479397717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613e93de4dfc3654e96154705e208640
+      internalID: -1736634167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badf4f3a2cc93f64e909ebba88f3c170
+      internalID: 344496931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb73e60db0491f4ca673fd46fc6c1f6
+      internalID: -336475688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8689883f5c9e2c746b18714040f4d015
+      internalID: -1908330473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9970285ab4f032842b2a2ee801e112d6
+      internalID: -1319440860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5641c6bcbea9e7468be9c4270419221
+      internalID: -825941981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646652d6e7a325c49aa68b5270aeeae7
+      internalID: 1301428546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde97907e9a89e6469977af5ba36b26d
+      internalID: 1336382836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3115d31ab18d12d45b36621522964942
+      internalID: -1388611433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e0b10632d1a7346bc3476461c0aab9
+      internalID: 837215640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571fb732ec6258743a862722dcef9603
+      internalID: 1761471901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c6df08d994336479e04e90ac98a2f2
+      internalID: -270321304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1a90c427de109439046cc0afdc23c3
+      internalID: -1893132710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f8a4df7757a744380744a86ac7b6a3
+      internalID: -1692604423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f953ce0e665c4d418379e4c84736d18
+      internalID: 574412757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 103
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8989d1b9431da458a190decab20e97
+      internalID: -1271598520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0e35968a1871844b1dd28d5a210e55
+      internalID: -1607701399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dcc12b0876b744bb6ed1ef3d53a934
+      internalID: 79057819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47afd64cbf3b744dbf0e7972e467be6
+      internalID: -924803810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116dfe3728097a248b67afe3c0ad404c
+      internalID: -971781405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a24f268d06c16428d32c9acfd6655a
+      internalID: -1519606871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89692a796afba44c899c21777b0e2aa
+      internalID: 346748843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e62b120320e5f143821cca01fc63d5b
+      internalID: 1923365812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed771282f7c578349804f0e84b576543
+      internalID: 693651784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49efeba7494ac3c489957e74acf756e1
+      internalID: 329127522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 53
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f459f4fdd46cc459ef2e71470e246b
+      internalID: 2038567890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f691b1b2dd3954a9c9f1bc7820ce7b
+      internalID: 659255306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516eee08a46fc3046bb6a2469387a19b
+      internalID: -1616574548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21002bbf733fbb9408acf4a81a3836ee
+      internalID: 1144889284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9523c9a7a90eb9c42a9307c9438b719b
+      internalID: -452564279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_0: -86844611
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_1: -1409515819
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_10: 1779325798
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_11: -882908899
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_12: 1027451630
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_13: 1993027526
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_14: 626923981
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_15: 721693906
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_16: 637815722
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_17: -566561918
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_18: -1460463312
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_19: 1321344923
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_2: 503978572
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_20: -682942805
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_21: -1711803517
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_22: 1321081857
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_23: -1930743569
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_24: -1369141090
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_25: 1871031077
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_26: -2144929068
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_27: -1554021929
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_28: -969463837
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_29: 977968305
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_3: -2081232591
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_30: 1164445785
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_31: -1892036212
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_32: -694330382
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_33: 1924450726
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_34: -1352331461
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_35: 2136063242
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_36: 317315423
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_37: 2127217573
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_38: -1094716552
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_39: -1473079563
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_4: -285008781
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_40: 631767549
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_41: -1093723828
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_42: -1483557896
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_43: 1946361310
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_44: 1379629678
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_45: -1479397717
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_46: -1736634167
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_47: 344496931
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_48: -336475688
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_49: -1908330473
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_5: 1847348339
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_50: -1319440860
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_51: -825941981
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_52: 1301428546
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_53: 1336382836
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_54: -1388611433
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_55: 837215640
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_56: 1761471901
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_57: -270321304
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_58: -1893132710
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_59: -1692604423
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_6: 986307982
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_60: 574412757
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_61: -1271598520
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_62: -1607701399
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_63: 79057819
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_64: -924803810
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_65: -971781405
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_66: -1519606871
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_67: 346748843
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_68: 1923365812
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_69: 693651784
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_7: -123954971
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_70: 329127522
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_71: 2038567890
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_72: 659255306
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_73: -1616574548
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_74: 1144889284
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_75: -452564279
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_8: -1253815198
+      Mobile_-_Adventure_Bar_Story_-_Gems-removebg-preview_9: -858346767
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

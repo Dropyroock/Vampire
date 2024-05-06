@@ -8,9 +8,14 @@ public class PlayerCharacter_Movement : MonoBehaviour
     [SerializeField] private float movespeed;
     [SerializeField] BaseWeapon[] weapons;
     Rigidbody2D rb;
-    private static Player_Mouvement instance;
     private static Player_Mouvement exp;
+    private static PlayerCharacter_Movement instance;
+    public static PlayerCharacter_Movement GetInstance() => instance;
     
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {

@@ -20,11 +20,19 @@ public class EnemySpawner : MonoBehaviour
         {
             for (int i = 0; i < 10; i++) 
             {
-                int randomIndex = Random.Range(0, enemyPrefab.Length);
-                Vector2 randomSpwanPosition = new Vector2(Random.Range(-10,11), Random.Range(-10,11));
-                Instantiate(enemyPrefab[randomIndex], new Vector3(3f, 3f, 0), Quaternion.identity);
+                EnemyFactory.GetInstance().CreateWeakEnemy();
             }
+            EnemyFactory.GetInstance().CreateStrongEnemy();
             yield return new WaitForSeconds(5);
         }
     } 
+
+    Vector3 PickPointAroundPlayer()
+    {
+        Vector3 result = PlayerCharacter_Movement.GetInstance().transform.position;
+        Vector2 randomPoint = Random.insideUnitCircle.normalized;
+        result.x = randomPoint.x;
+        result.y = randomPoint.y;
+        return result;
+    }
 }
