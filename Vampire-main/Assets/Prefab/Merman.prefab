@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1525055411188248673}
   - component: {fileID: 7165130253550594161}
   - component: {fileID: 686975677757465429}
+  - component: {fileID: 697892002553137832}
   m_Layer: 0
   m_Name: Merman
   m_TagString: Untagged
@@ -47,9 +48,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d312dcfe612dc5d40aaea96b4762b16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  coinObject: {fileID: 8292296884943056770, guid: 04a820a6a445b9f41b80be22f7eac829, type: 3}
+  moveSpeed: 0.5
+  maxHP: 20
+  coinObject: {fileID: 7728812037717994409, guid: 774a34a24794e1a4da88f38f1bbbdeeb, type: 3}
   gemObject: {fileID: 629065157081019847, guid: e8aa4e28768cafa42b13b9b7eb53f71a, type: 3}
+  damage: 5
 --- !u!50 &7165130253550594161
 Rigidbody2D:
   serializedVersion: 4
@@ -78,6 +81,51 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &686975677757465429
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653267739032244732}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.25535238, y: -0.45954788}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7469814, y: 1.0190959}
+  m_EdgeRadius: 0
+--- !u!61 &697892002553137832
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

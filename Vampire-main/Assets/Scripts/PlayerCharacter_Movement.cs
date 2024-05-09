@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 
-public class PlayerCharacter_Movement : MonoBehaviour
+public class PlayerCharacter_Mouvement : MonoBehaviour
 {
     [SerializeField] private float movespeed;
     [SerializeField] BaseWeapon[] weapons;
     Rigidbody2D rb;
-    private static Player_Mouvement exp;
-    private static PlayerCharacter_Movement instance;
-    public static PlayerCharacter_Movement GetInstance() => instance;
+    private static PlayerCharacter_Mouvement exp;
+    private static PlayerCharacter_Mouvement instance;
+    public static PlayerCharacter_Mouvement GetInstance() => instance;
     
     private void Awake()
     {

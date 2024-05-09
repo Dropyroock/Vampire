@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: a92d1a01588170c44a5538c112fe7647
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 147
+        width: 6
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110f974a70a336c4e9d94ff0a29e6426
+      internalID: 658729398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 146
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34789387599cf3e43a136ae9c507a202
+      internalID: 1809229961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0ea6978abac6e47922b5a0c1e11c8a
+      internalID: -561412765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5170d05de5afa4ca875d8749b712b4
+      internalID: -1344430560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 166
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77a8c01ac32764c981349863a487a9
+      internalID: 2080159918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 158
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373b7b9466f054b4d9d6d45c11b5b43e
+      internalID: 260826097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 100
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a54612703b5a74392ce47e20083a93
+      internalID: 1804732909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 107
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c91075341d7e2d4983f58433a62ca44
+      internalID: -2039279131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 107
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca4970658715f5478b74825801dfc5a
+      internalID: 978444154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 104
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419ab7c4c6c85d44f9b4831691e13006
+      internalID: -1805301390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 133
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1c92bfa0535b14496e3959f86c350b
+      internalID: 13525639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 105
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca5b624b8cfbef4c8f618a466e811ae
+      internalID: -1209638148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 2, y: 3, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3793bc5faeb882649b4bf75454d776b0
+      internalID: 1585161317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_0: 658729398
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_1: 1809229961
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_10: 13525639
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_11: -1209638148
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_12: 1585161317
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_13: 1158517298
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_14: -124955346
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_15: 1712551353
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_16: 1893620552
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_17: -266570887
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_2: -561412765
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_3: -1344430560
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_4: 2080159918
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_5: 260826097
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_6: 1804732909
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_7: -2039279131
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_8: 978444154
+      PlayStation_-_Tales_of_Eternia_Tales_of_Destiny_II_-_Long_Spear-removebg-preview_9: -1805301390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -257,3 +257,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 2
+  weapons: []
+  maxHP: 50
