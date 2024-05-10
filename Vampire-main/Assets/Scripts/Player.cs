@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] BaseWeapon[] weapons;
     Rigidbody2D rb;
     [SerializeField] int maxHP;
-    int currentHp;
+    [SerializeField] int currentHp;
     private static Player exp;
     private static Player instance;
     public GameOverScreen GameOverScreen;

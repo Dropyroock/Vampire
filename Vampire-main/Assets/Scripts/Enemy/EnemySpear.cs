@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
-using UnityEditor.Callbacks;
+// using Unity.Mathematics;
+// using UnityEditor.Callbacks;
 using UnityEngine;
 
 public class EnemySpear : MonoBehaviour

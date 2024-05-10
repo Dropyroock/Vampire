@@ -7,35 +7,24 @@ public class Coin : MonoBehaviour
     [SerializeField] public int value;
     float lifetime = 10f;
     private Rigidbody2D rb;
-
-        private Coroutine _returnToPoolTimeCoroutine;
+    private Coroutine _returnToPoolTimeCoroutine;
     
     public void Reset() 
     {
         lifetime = 10f;
     }
 
-        private void Awake()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
-    // void Update()
-    // {
-    //     lifetime -= Time.deltaTime;
-    //     if(lifetime < 0) 
-    //     {
-    //         gameObject.SetActive(false);
-    //     }
-    // }
-
-        private void OnEnable()
+    
+    private void OnEnable()
     {
         _returnToPoolTimeCoroutine = StartCoroutine(ReturnToPoolAfterTime());
     }
 
-        private IEnumerator ReturnToPoolAfterTime()
+    private IEnumerator ReturnToPoolAfterTime()
     {
         float elasedTime = 0f;
         while(elasedTime < lifetime)

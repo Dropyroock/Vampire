@@ -19,16 +19,6 @@ public class Gems : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    // void Update()
-    // {
-    //     lifetime -= Time.deltaTime;
-    //     if(lifetime < 0) 
-    //     {
-    //         gameObject.SetActive(false);
-    //     }
-    // }
-
     private void OnEnable()
     {
         _returnToPoolTimeCoroutine = StartCoroutine(ReturnToPoolAfterTime());

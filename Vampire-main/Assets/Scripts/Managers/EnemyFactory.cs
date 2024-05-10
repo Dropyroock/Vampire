@@ -10,6 +10,8 @@ public class EnemyFactory : MonoBehaviour
     [SerializeField] GameObject[] weakEnemy;
     [Header("Special enemy")] 
     [SerializeField] GameObject[] strongEnemy;
+    
+    [SerializeField] GameObject[] bossEnemy;
 
     private static EnemyFactory instance;
     public static EnemyFactory GetInstance() => instance;
@@ -29,5 +31,11 @@ public class EnemyFactory : MonoBehaviour
     {
         int randEnemy = Random.Range(0, strongEnemy.Length);
         return Instantiate(strongEnemy[randEnemy], Vector3.zero, Quaternion.identity);
+    }
+
+            public GameObject CreateBossEnemy()
+    {
+        int randEnemy = Random.Range(0, bossEnemy.Length);
+        return Instantiate(bossEnemy[randEnemy], Vector3.zero, Quaternion.identity);
     }
 }
