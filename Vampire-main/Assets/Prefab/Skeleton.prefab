@@ -82,6 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  targetGameObject: {fileID: 0}
   maxHP: 20
   coinObject: {fileID: 7728812037717994409, guid: 774a34a24794e1a4da88f38f1bbbdeeb, type: 3}
   gemObject: {fileID: 629065157081019847, guid: e8aa4e28768cafa42b13b9b7eb53f71a, type: 3}
@@ -112,7 +113,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &-7168832350028820164
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -48,14 +48,6 @@ public class ScytheProjectile : MonoBehaviour, IPoolable
 
     private void Update()
     {
-        //ObjectPoolManager.ReturnObjectToPool(gameObject);
-        
-        // lifetime -= Time.deltaTime;
-        // if(lifetime < 0) 
-        // {
-        //     gameObject.SetActive(false);
-        // }
-        
         transform.position += 5f * Time.deltaTime * transform.right;
     }
 }

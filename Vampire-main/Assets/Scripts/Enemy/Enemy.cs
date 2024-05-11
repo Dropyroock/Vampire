@@ -21,11 +21,14 @@ public class Enemy : MonoBehaviour
     public GameObject coinObject;
     public GameObject gemObject;
     [SerializeField] private int damage;
+    //[SerializeField] private int coinValue;
+    //[SerializeField] private int expValue;
 
     private void Awake() 
     {
         currentHp = maxHP;
         rb = GetComponent<Rigidbody2D>();
+        //targetDestination = GameObject.Find("Player").transform;
     }
 
     public void Start() 
@@ -39,7 +42,7 @@ public class Enemy : MonoBehaviour
         targetDestination = target.transform;
     }
 
-    public void Damage(int value)
+    public virtual void Damage(int value)
     {
         currentHp -= value;
         if(currentHp <=0)
@@ -48,7 +51,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void Die()
+    public virtual void Die()
     {
         gameObject.SetActive(false);
         SoundPlayer.GetInstance().PlayDeathAudio();
@@ -57,7 +60,7 @@ public class Enemy : MonoBehaviour
             
     }
 
-        private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.TryGetComponent<Player>(out var Player))
         {
@@ -80,14 +83,14 @@ public class Enemy : MonoBehaviour
         rb.velocity = new Vector2(moveDirection.x, moveDirection.y) * moveSpeed;
     }
 
-    void DropCoin()
+    public void DropCoin()
     {
         Vector3 position = transform.position;
         GameObject coin = Instantiate(coinObject, position,quaternion.identity);
         coin.SetActive(true);
     }
 
-        void DropGem()
+    public void DropGem()
     {
         Vector3 position = transform.position;
         GameObject gem = Instantiate(gemObject, position,quaternion.identity);

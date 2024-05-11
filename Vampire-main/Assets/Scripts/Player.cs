@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     private static Player instance;
     public GameOverScreen GameOverScreen;
     public static Player GetInstance() => instance;
+    Animator animator;
     
     private void Awake()
     {
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         weapons[0].LevelUP();
+        animator = GetComponent<Animator>();
     }
 
     private void Update() 
@@ -57,5 +59,11 @@ public class Player : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
         rb.velocity = new Vector2(x, y) * movespeed;
+        animator.SetFloat("Speed", rb.velocity.magnitude);
+        //Flip
+        if(x != 0)
+        {
+            transform.localScale = new Vector3(x > 0 ? 1 : -1, 1, 1);
+        } 
     }
 }

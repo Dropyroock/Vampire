@@ -8,45 +8,72 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [Header("Normal enemy")] 
     //[SerializeField] GameObject enemyPrefab;  
-    [Header("Special enemy")] 
+
     //[SerializeField] GameObject[] bigEenemyPrefab;
 
-    public float spawnInterval = 5;
-    public float currentSpawnTime = 0;
-    public float bigCountdown = 120;
-    public float curretnBigTime = 0;
     [SerializeField] Vector2 spawnArea;
     [SerializeField] GameObject player;
 
-    [SerializeField] private float spawnTime = 5;
+    [Header("Normal enemy")] 
+    [SerializeField] private float normalSpawnTime;
+    [Header("Special enemy")] 
+    [SerializeField] private float specialSpawnTime;
+    [Header("Boss enemy")] 
+    [SerializeField] private float bossSpawnTime;
 
 
     private void Start() 
     {
-        StartCoroutine(SpawnEnemy());
-        
+        StartCoroutine(SpawnNormalEnemy());
+        StartCoroutine(SpawnSpecialEnemy());
+        StartCoroutine(SpawnBossEnemy());
     }   
     
-    public IEnumerator SpawnEnemy() 
+    public IEnumerator SpawnNormalEnemy() 
     {
         while (true)
         {
+            yield return new WaitForSeconds(normalSpawnTime);
+            //Spawns Normal Ennemies
             for (int i = 0; i < 10; i++) 
             {
                 SpawnWeakAroundPlayer();
-                
             }
+            //yield return new WaitForSeconds(normalSpawnTime);
+        }
+} 
+
+    public IEnumerator SpawnSpecialEnemy()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(specialSpawnTime);
+            //Spawns Special Ennemies
             for (int i = 0; i < 2; i++)
             {
-                SpawnStrongAroundPlayer();
+                SpawnSpecialAroundPlayer();
             }
-
-            yield return new WaitForSeconds(spawnTime);
+            //yield return new WaitForSeconds(specialSpawnTime);
         }
-    } 
 
+    }
+
+            
+     public IEnumerator SpawnBossEnemy()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(bossSpawnTime);
+            //Spawns Boss Ennemies
+            for (int i = 0; i < 1; i++)
+            {
+                SpawnBossAroundPlayer();
+            }
+            //yield return new WaitForSeconds(bossSpawnTime);
+        }
+
+    }
 
     private void SpawnWeakAroundPlayer()
     {
@@ -59,15 +86,26 @@ public class EnemySpawner : MonoBehaviour
         newWeakEnemy.GetComponent<Enemy>().SetTraget(player);
     }
 
-        private void SpawnStrongAroundPlayer()
+        private void SpawnSpecialAroundPlayer()
     {
         Vector3 position = GenerateRandomPosition();
 
         position += player.transform.position;
 
-        GameObject newStrongEnemy = EnemyFactory.GetInstance().CreateStrongEnemy();
-        newStrongEnemy.transform.position = position;
-        newStrongEnemy.GetComponent<Enemy>().SetTraget(player);
+        GameObject newSpecialEnemy = EnemyFactory.GetInstance().CreateSpecialEnemy();
+        newSpecialEnemy.transform.position = position;
+        newSpecialEnemy.GetComponent<Enemy>().SetTraget(player);
+    }
+
+    private void SpawnBossAroundPlayer()
+    {
+        Vector3 position = GenerateRandomPosition();
+
+        position += player.transform.position;
+
+        GameObject newBossEnemy = EnemyFactory.GetInstance().CreateBossEnemy();
+        newBossEnemy.transform.position = position;
+        newBossEnemy.GetComponent<Enemy>().SetTraget(player);
     }
 
     private Vector3 GenerateRandomPosition()

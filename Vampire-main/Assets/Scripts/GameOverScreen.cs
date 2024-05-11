@@ -11,12 +11,14 @@ public class GameOverScreen : MonoBehaviour
     public void Setup(int score)
     {
         gameObject.SetActive(true);
+        Time.timeScale = 0f;
         //pointsText.text = score.ToString() + " Points";
     }
 
     public void RestartButton()
     {
         SceneManager.LoadScene("SampleScene");
+        Time.timeScale = 1f;
     }
 
     public void ExitButton()
